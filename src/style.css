@@ -109,9 +109,7 @@ nav > button {
   font-weight: bold;
 }
 
-h1 {
-  padding: 40px 10px;
-}
+h1,
 h2,
 p,
 ul,
@@ -126,4 +124,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: lighten;
+}
+.menu-card {
+  background-color: antiquewhite;
+  color: black;
+  border: 4mm ridge orange;
+  padding: 10px;
+  margin: 15px 0px;
 }

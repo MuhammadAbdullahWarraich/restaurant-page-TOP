@@ -1,7 +1,7 @@
 
 import RestaurantImage from '../media/restaurant-portrait.jpg';
 
-export default function initialLoad() {
+export default function init() {
     const children = [];
 
     children.push(component('h1', 'Welcome to the best restaurant!'));
