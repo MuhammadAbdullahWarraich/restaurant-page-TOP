@@ -33,11 +33,6 @@ div#content {
   padding: 0px 50px;
 }
 
-div#content > p,
-div#content > ul {
-  margin: 50px 0px;
-}
-
 nav {
   display: flex;
 }
