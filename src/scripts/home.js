@@ -28,6 +28,7 @@ export default function init() {
     ]));
 
     const content = document.getElementById('content');
+    content.innerHTML = "";
     for (const child of children) {
         content.appendChild(child);
     }

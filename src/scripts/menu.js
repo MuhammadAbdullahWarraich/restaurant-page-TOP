@@ -1,6 +1,7 @@
 import {categories, menu} from "./menu-items.js";
 export default function init() {
     const content = document.getElementById('content');
+    content.innerHTML = "";
     content.appendChild(component('h1', "Menu"));
     let i = -1;
     for (const item of menu) {
