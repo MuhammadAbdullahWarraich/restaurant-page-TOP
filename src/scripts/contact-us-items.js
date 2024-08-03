@@ -1,11 +1,3 @@
-class Contact {
-    constructor(title, post, telephone, email) {
-        this.title = title;
-        this.post = post;
-        this.telephone = telephone;
-        this.email = email;
-    }
-}
 const contacts = [
     new Contact(
         "Terry Davis",
@@ -27,3 +19,9 @@ const contacts = [
     )
 ];
 export default contacts;
+function Contact(title, post, telephone, email) {
+    this.title = title;
+    this.post = post;
+    this.telephone = telephone;
+    this.email = email;
+}

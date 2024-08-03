@@ -3,14 +3,6 @@ const categories = [
     "sides",
     "beverages"
 ];
-class Item {
-    constructor(title, desc, cost, category) {
-        this.title = title;
-        this.desc = desc;
-        this.cost = cost;
-        this.category = category;
-    }
-}
 let menu = [
    new Item(
     "Honey Tea",
@@ -54,4 +46,10 @@ menu.sort((a, b) => a.category > b.category ? 1 : -1);
 export {
     categories,
     menu
+}
+function Item(title, desc, cost, category) {
+    this.title = title;
+    this.desc = desc;
+    this.cost = cost;
+    this.category = category;
 }
