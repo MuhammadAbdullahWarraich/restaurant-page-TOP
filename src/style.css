@@ -83,7 +83,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   text-align: center;
   display: grid;
-  grid-template-columns: max(320px, min(100%, 800px));
+  grid-template-columns: max(320px, min(100%, 600px));
   justify-content: center;
 }
 
@@ -91,7 +91,7 @@ div#content {
   display: grid;
   justify-items: center;
   align-content: start;
-  background-color: rgba(0, 0, 50, 0.9);
+  background-color: rgba(8, 8, 72, 0.7);
   min-height: 100vh;
   padding: 0px 50px;
 }
@@ -107,4 +107,23 @@ nav > button {
   color: white;
   font-size: 1.3em;
   font-weight: bold;
+}
+
+h1 {
+  padding: 40px 10px;
+}
+h2,
+p,
+ul,
+ol {
+  padding: 20px 0px;
+}
+img {
+  margin: 20px 0px;
+}
+body {
+  background-image: url(./media/restaurant-landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
 }

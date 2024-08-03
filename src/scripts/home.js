@@ -1,5 +1,5 @@
 
-import RestaurantImage from '../media/restaurant.jpg';
+import RestaurantImage from '../media/restaurant-portrait.jpg';
 
 export default function initialLoad() {
     const children = [];
