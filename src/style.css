@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "caviar_dreamsregular";
+  src: url("./fonts/caviardreams.woff2") format("woff2"),
+    url("./fonts/caviardreams.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "caviar_dreamsregular";
+}
+div#content > .image {
+  display: block;
+  height: auto;
+  width: 320px;
+  border: 4mm ridge orange;
+}
+
+body {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  display: grid;
+  grid-template-columns: max(320px, min(100%, 500px));
+  justify-content: center;
+}
+
+div#content {
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  background-color: rgba(0, 0, 50, 0.9);
+  min-height: 100vh;
+  padding: 0px 50px;
+}
+
+div#content > p,
+div#content > ul {
+  margin: 50px 0px;
+}
+
+nav {
+  display: flex;
+}
+
+nav > button {
+  flex: 1;
+  padding: 10px 0px;
+  background-color: orange;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+}
